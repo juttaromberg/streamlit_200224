@@ -35,6 +35,7 @@ np.random.seed(49)
 
 
 ##
+nltk.download('stopwords')
 stemmer = PorterStemmer()
 lemmatizer = WordNetLemmatizer()
 class email_to_clean_text(BaseEstimator, TransformerMixin):
