@@ -103,7 +103,7 @@ class email_to_clean_text(BaseEstimator, TransformerMixin):
         #st.write(text)
         wordcloud = WordCloud(background_color='white').generate(text)
         # Display the generated image:
-        st.write("### Intersection Word Cloud with Important Features Words with Mail Words")
+        st.write("### Intersection of Important-Features-Words with Mail-Words")
         fig, ax = plt.subplots()
         ax.imshow(wordcloud, interpolation='bilinear')
         ax.axis('off') # Remove axes
