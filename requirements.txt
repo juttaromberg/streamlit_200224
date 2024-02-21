@@ -1,2 +1,6 @@
 streamlit
-streamlit_lottie
+wordcloud
+nltk
+scikit-learn
+beautifulsoup4
+matplotlib
